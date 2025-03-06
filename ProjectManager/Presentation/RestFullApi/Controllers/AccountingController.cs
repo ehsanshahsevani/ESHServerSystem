@@ -3,6 +3,7 @@ using SkiaSharp;
 using ViewModels;
 using AutoMapper;
 using ControllerSeedworks;
+using Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 using Persistence;
@@ -12,7 +13,7 @@ using IUnitOfWork = PersistenceSeedworks.IUnitOfWork;
 
 namespace RestFullApi.Controllers;
 
-public class AccountingController : BaseApiIdentityController<User, Role>
+public class AccountingController : BaseIdentityController
 {
     #region DI Settings & Constructor
 

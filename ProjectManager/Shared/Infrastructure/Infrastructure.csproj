@@ -101,6 +101,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\SeedworkSystem\ControllerSeedworks\ControllerSeedworks.csproj" />
     <ProjectReference Include="..\..\..\SeedworkSystem\InfrastructureSeedworks\InfrastructureSeedworks.csproj" />
     <ProjectReference Include="..\..\..\SharedSystem\Shared\JwtSettings\JwtSettings.csproj" />
     <ProjectReference Include="..\..\Core\Persistence\Persistence.csproj" />
